@@ -1,8 +1,7 @@
 # Łukasz Sztormowski - portfolio
 
-## Opis
-To będzie mój pierwszy **projekt**g.Podczas kursu
-tu będę umieszczał moje **zadnia domowe**.
+## Projekt: Wydarzenia w Gdańsku -planer weekendu w Gdańsku.
+Na podstawie informacji o nadchodzących wydarzeniach w Gdańsku bedzie można zaplanować weekend, a następnie go realizować.
 
 
 ### Link do projektu
