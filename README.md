@@ -1,8 +1,9 @@
 # Łukasz Sztormowski - portfolio
 
-## Description
-This will be my first project.
+## Opis
+To będzie mój pierwszy **projekt**g.Podczas kursu
+tu będę umieszczał moje **zadnia domowe**.
 
 
-### Link
-[Link to my project](https://qkiczw.github.io)
+### Link do projektu
+[qkiczw.github.io](https://qkiczw.github.io)
