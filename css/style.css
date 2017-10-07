@@ -1,0 +1,155 @@
+
+
+
+/*Links*/
+a, a:focus, a:visited, a:link{
+    color:#B82601;
+    text-decoration: none;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+/* main menu */
+.main-menu a:hover{
+    font-weight: bold;
+}
+
+.main-menu ul{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+    margin-bottom: 0px;
+    padding-top:20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-align: right;
+    word-spacing: 10px;
+
+
+
+}
+
+
+.main-menu li{
+    display: inline-block;
+}
+
+/*Header */
+.header{
+    width: 100%;
+    min-height:800px;
+    background-color: darkolivegreen;
+    background-image: url("../images/bg-header.jpg");
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: cover ;
+    margin-top: 0px;
+
+}
+
+.header h1{
+    font-size: 5em;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 20%;
+    color: white;
+
+
+}
+
+/*Section title*/
+.section-title {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+    
+
+/*About me*/
+
+#about-me h2{
+    font-weight: 700;
+}
+
+#about-me{
+        margin-bottom: 50px;
+    }
+
+.picture-of-me{
+    border: 5px solid #B82601;
+    border-radius: 50%;
+    width: 300px;
+    margin: auto 20%;
+    padding: 10px;
+    
+
+}
+
+.text-about-me{
+    padding-top: 100px;
+}
+
+
+/*Portfolio*/
+
+#portfolio {
+    margin-top: 20px;
+    background-color: #062f4f;
+    padding-bottom: 50px;
+}
+
+
+
+.portfolio-img{
+    width: 300px;
+    border: 2px solid #B82601;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+
+#portfolio h2{
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.portfolio-title{
+    width: 200px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #ffffff;
+    padding: 2px;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+.portfolio-description{
+    width: 300px;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+.portfolio-button{
+    border: solid 2px #B82601;
+    border-radius: 10px;
+    background-color: #062f4f;
+    color: #B82601;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    padding: 5px 50px;
+}
+
+.portfolio-button:hover{
+    font-weight: bold;
+    border-width: 3px;
+}
