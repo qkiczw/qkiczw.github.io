@@ -86,6 +86,7 @@ a:hover{
     }
 
 .about-me-button{
+    width: 150px;
     margin-top: 50px;
     border: solid 2px #B82601;
     border-radius: 10px;
@@ -95,7 +96,9 @@ a:hover{
     text-transform: uppercase;
     padding: 5px 20px;
 
+
 }
+
 
 .picture-of-me{
     border: 5px solid #B82601;
@@ -109,6 +112,7 @@ a:hover{
 
 .text-about-me{
     padding-top: 100px;
+    margin-bottom: 50px;
 }
 
 
@@ -160,6 +164,7 @@ a:hover{
 
 
 .portfolio-button{
+    width: 100px;
     margin-bottom: 50px;
     border: solid 2px #B82601;
     border-radius: 10px;
@@ -184,13 +189,19 @@ a:hover{
 
 .map{
     width: 300px;
+    border: solid 2px #000000;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 
 /*Footer*/
 footer{
+    height: 50px;
     margin-top: 50px;
+    padding-top: 20px;
     background-color: #000000;
     color: #ffffff;
     text-align: center;
 }
+

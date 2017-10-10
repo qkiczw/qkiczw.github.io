@@ -18,19 +18,31 @@
     <!-- Main menu-->
     <section id="start" class="menu">
 
+        <!--RWD menu-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">LS - Web Design</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#start">Start <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-me">O mnie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Kontakt</a>
+                    </li>
 
-        <nav class="main-menu">
-
-            <div>
-
-                <ul>
-                    <li><a href="#start">Start</a></li>
-                    <li><a href="#about-me">O mnie</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Kontakt</a> </li>
                 </ul>
             </div>
         </nav>
+
     </section>
     <!--Header-->
     <section class="header">
@@ -72,7 +84,11 @@
                         po kliknięciu w przycisk znajdujący się poniżej.
 
                     </p>
-                    <button class="about-me-button mx-auto d-block"><a href="https://www.linkedin.com/in/%C5%82ukasz-sztormowski-905516151/" target="_blank">Zobacz</a> </button>
+
+                    <p class="text-center">
+                        <a href="https://www.linkedin.com/in/%C5%82ukasz-sztormowski-905516151/" class="about-me-button" target="_blank">Zobacz</a>
+                    </p>
+
                 </div>
             </div>
 
@@ -100,7 +116,7 @@
                             Link do moich repozytriów na Github`ie gdzie znajdziesz moje różne projekty
                         </p>
                     </div>
-                    <button class="portfolio-button mx-auto d-block"><a href="https://github.com/qkiczw" target="_blank">wejdź</a> </button>
+                    <a href="https://github.com/qkiczw" target="_blank" class="portfolio-button mx-auto d-block">wejdź</a>
 
                 </div>
                 <!-- Portfolio ckusopot-->
@@ -112,7 +128,7 @@
                                 Strona Centrum Kształcenia Ustawicznego w Sopocie. Stworzona min.za pomocą HTML, CSS, framework`a BOOTSRAP oraz JOOMLA.
                             </p>
                         </div>
-                    <button class="portfolio-button mx-auto d-block"><a href="http://ckusopot.com.pl" target="_blank">wejdź</a></button>
+                    <a href="http://ckusopot.com.pl" target="_blank" class="portfolio-button mx-auto d-block">wejdź</a>
                 </div>
                 <!-- Portfolio obrppd-->
                 <div class="col-md-4 col-sm-6">
@@ -124,8 +140,7 @@
                             Strona Ośrodka Badawczo Rozwojowego. Stworzona min.za pomocą HTML, CSS oraz framework`a BOOTSTRAP.
                         </p>
                     </div>
-                    <button class="portfolio-button mx-auto d-block"><a href="http://obrppd.com.pl" target="_blank">wejdź</a> </button>
-                </div>
+                    <a href="http://obrppd.com.pl" target="_blank" class="portfolio-button mx-auto d-block">wejdź</a>
             </div>
         </div>
 
@@ -156,7 +171,7 @@
                     </p>
                 </div>
                 <div class="col-md-6 contact-map">
-                    <img src="images/map.jpg" class="img-fluid map">
+                    <img src="images/map.jpg" class="mx-auto d-block img-fluid map">
                 </div>
             </div>
 
@@ -167,7 +182,7 @@
     <!--Footer-->
     <section id="footer">
         <footer>
-            Copyright 2017
+            Łukasz Sztormowski &copy; 2017
         </footer>
 
     </section>
