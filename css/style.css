@@ -125,11 +125,14 @@ a:hover{
     padding-bottom: 50px;
 }
 
+#portfolio a{
+    color: #ffffff;
+}
 
 
 .portfolio-img{
     width: 300px;
-    border: 2px solid #B82601;
+    border: 2px solid #ffffff;
     border-radius: 5px;
     padding: 5px;
     
@@ -167,18 +170,20 @@ a:hover{
 .portfolio-button{
     width: 100px;
     margin-bottom: 50px;
-    border: solid 2px #B82601;
+    border: solid 2px #ffffff;
     border-radius: 10px;
-    background-color: #062f4f;
-    color: #B82601;
+
     font-size: 1.1em;
     text-transform: uppercase;
     padding: 5px 20px;
+    color: white;
 }
+
 
 .portfolio-button:hover{
     font-weight: bold;
     border-width: 3px;
+    color: white;
 }
 
 
@@ -186,12 +191,28 @@ a:hover{
 
 .contact-info{
     font-size: 1.3em;
+    padding-top: 20px;
+    padding-left: 50px;
 }
 
-.map{
-    width: 300px;
+
+
+/*Responsive map*/
+.map-responsive{
     border: solid 2px #000000;
     border-radius: 5px;
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
     padding: 5px;
 }
 
