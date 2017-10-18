@@ -54,13 +54,11 @@ a:hover{
 }
 
 .header h1{
-    font-size: 5em;
+    font-size: 4em;
     font-weight: 700;
-
     padding-top: 20%;
     color: white;
-
-
+    text-shadow: 1px 1px black;
 
 }
 
@@ -206,3 +204,21 @@ footer{
     text-align: center;
 }
 
+/*Media Queries*/
+
+@media all and (max-width:800px) {
+
+    /*h1 size on small screen*/
+    .header h1 {
+        font-size: 3em;
+        font-weight: 700;
+        padding-top: 20%;
+
+    }
+
+    /* header height on small screen*/
+    .header {
+        width: 100%;
+        min-height: 400px;
+    }
+}
