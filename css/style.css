@@ -1,4 +1,9 @@
-
+/*remove margins and padding from left and right side of site*/
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0
+}
 
 
 /*Links*/
@@ -110,8 +115,9 @@ a:hover{
 
 .text-about-me{
     padding-top: 100px;
-    padding-left: 20px;
+    padding-right: 15px;
     margin-bottom: 50px;
+    text-align: justify;
 }
 
 
@@ -159,7 +165,6 @@ a:hover{
 }
 
 .portfolio-item-info{
-    width: 300px;
     color: #ffffff;
     text-align: center;
 }
