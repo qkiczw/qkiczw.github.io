@@ -254,4 +254,25 @@ footer{
         width: 100%;
         min-height: 400px;
     }
+    .contact-info{
+        padding-left: 5px;
+    }
+}
+
+@media all and (max-width:360px) {
+
+   .header h1 {
+       font-size: 1.5em;
+       font-weight: normal;
+       padding-top: 20%;
+
+   }
+
+   .contact-info{
+       padding-left: 5px;
+   }
+
+   address{
+       font-size: 0.8em;
+   }
 }
