@@ -1,4 +1,7 @@
-
+body{
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+}
 
 /*remove margins and padding from left and right side of site*/
 .row{
@@ -29,7 +32,7 @@ a:hover{
 }
 
 .main-menu ul{
-    width: 100%;
+    /*width: 100%;*/
     height: 60px;
     background-color: black;
     color: white;
@@ -37,8 +40,7 @@ a:hover{
     padding-top:20px;
     padding-right: 30px;
     padding-bottom: 20px;
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
+
     text-transform: uppercase;
     text-align: right;
     word-spacing: 10px;
@@ -54,8 +56,8 @@ a:hover{
 
 /*Header */
 .header{
-    width: 100%;
-    min-height:700px;
+    /*width: 100%;*/
+    min-height:1080px;
     background-color: #062f4f;
     background-image: url("../images/bg-header.jpg");
     background-attachment: fixed;
@@ -66,7 +68,7 @@ a:hover{
 }
 
 .header h1{
-    font-size: 4em;
+    font-size: 6em;
     font-weight: 700;
     padding-top: 20%;
     color: white;
@@ -92,7 +94,8 @@ a:hover{
 }
 
 #about-me{
-        margin-bottom: 50px;
+    margin-bottom: 50px;
+    min-height: 500px;
     }
 
 .about-me-button{
@@ -140,6 +143,10 @@ a:hover{
     color: #ffffff;
 }
 
+.xxx{
+    margin-top: 20px;
+}
+
 
 .portfolio-img{
     width: 300px;
@@ -155,7 +162,8 @@ a:hover{
 }
 
 .portfolio-description{
-    height: 450px;
+    margin-bottom: 10px;
+
 
 }
 
@@ -174,18 +182,21 @@ a:hover{
 .portfolio-item-info{
     color: #ffffff;
     text-align: center;
+
 }
 
-
 .portfolio-button{
+    margin-top: 10px;
+}
+
+.portfolio-button-link {
     width: 100px;
     margin-bottom: 50px;
     border: solid 2px #ffffff;
     border-radius: 10px;
-
     font-size: 1.1em;
     text-transform: uppercase;
-    padding: 5px 20px;
+    text-align: center;
     color: white;
 }
 
@@ -239,11 +250,18 @@ footer{
 
 /*Media Queries*/
 
-@media all and (max-width:800px) {
+
+
+@media all and (max-width:1367px) {
+
+    body{
+        font-size: 18px;
+
+    }
 
     /*h1 size on small screen*/
     .header h1 {
-        font-size: 3em;
+        font-size: 4em;
         font-weight: 700;
         padding-top: 20%;
 
@@ -252,12 +270,13 @@ footer{
     /* header height on small screen*/
     .header {
         width: 100%;
-        min-height: 400px;
+        min-height: 769px;
     }
     .contact-info{
         padding-left: 5px;
     }
 }
+
 
 @media all and (max-width:360px) {
 
