@@ -22,14 +22,10 @@ a, a:focus, a:visited, a:link{
     text-decoration: none;
 }
 
-a:hover{
-    font-weight: bold;
-}
+
 
 /* main menu */
-.main-menu a:hover{
-    font-weight: bold;
-}
+
 
 .main-menu ul{
     /*width: 100%;*/
@@ -110,7 +106,10 @@ a:hover{
     text-transform: uppercase;
     padding: 5px 20px;
 
+}
 
+.about-me-button:hover{
+    background-color: lightgray;
 }
 
 
@@ -157,13 +156,17 @@ a:hover{
     
 }
 
+.portfolio-img:hover{
+    border: 2px solid #B82601;
+}
+
 #portfolio h2{
     color: #ffffff;
     font-weight: 700;
 }
 
 .portfolio-description{
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 
 
 }
@@ -186,27 +189,7 @@ a:hover{
 
 }
 
-.portfolio-button{
-    margin-top: 10px;
-}
 
-.portfolio-button-link {
-    width: 100px;
-    margin-bottom: 50px;
-    border: solid 2px #ffffff;
-    border-radius: 10px;
-    font-size: 1.1em;
-    text-transform: uppercase;
-    text-align: center;
-    color: white;
-}
-
-
-.portfolio-button:hover{
-    font-weight: bold;
-    border-width: 3px;
-    color: white;
-}
 
 
 /*Contact*/
@@ -219,24 +202,6 @@ a:hover{
 
 
 
-/*Responsive map*/
-.map-responsive{
-    border: solid 2px #000000;
-    border-radius: 5px;
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-
-}
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-    padding: 5px;
-}
 
 
 /*Footer*/
