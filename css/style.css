@@ -129,6 +129,15 @@ a, a:focus, a:visited, a:link{
     margin-bottom: 50px;
     text-align: justify;
 }
+.achievements{
+    margin-top: 50px;
+}
+
+
+.achievements img{
+    width: 100px;
+    margin: 10px;
+}
 
 
 /*Portfolio*/
