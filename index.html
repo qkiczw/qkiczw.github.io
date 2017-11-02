@@ -7,219 +7,322 @@
 
     <!-- Google Font-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-    <!-- Bootstrap css -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <!-- Font Awesome-->
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <!--My css-->
     <link rel="Stylesheet" type="text/css" href="css/style.css" />
 
 </head>
 <body>
-    <!--Whole site container-->
-    <div class="container-fluid">
-        <!--Header-->
-        <header>
-            <!-- Main menu-->
-            <section id="start" class="menu">
 
-                <!--RWD menu-->
-                <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-                    <a class="navbar-brand" href="#">LS - Web Design</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#start">Start <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#about-me">O mnie</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#portfolio">Portfolio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#contact">Kontakt</a>
-                            </li>
 
-                        </ul>
-                    </div>
-                </nav>
+<div class=".container">
+    <!--Header-->
+    <header>
+        <!--Nav-->
+        <nav class="main-menu">
+            <ul>
+                <li class="brand">LS- Web Design </li>
+                <li><a href="#start">Start</a> </li>
+                <li><a href="#about-me">O mnie</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#kontakt">Kontakt</a> </li>
 
+            </ul>
+        </nav>
+        <!--Header Content-->
+        <div class="header-content">
+            <img src="images/my-logo.png" alt="my logo">
+            <h1>Szukasz profesjonalnej strony www?
+                Dobrze trafiłeś!
+            </h1>
+        </div>
+
+    </header>
+    <main>
+        <!--About me-->
+
+        <section  class="about-me">
+            <section id="about-me" class="section-title">
+                <h2>O mnie</h2>
             </section>
-            <section class="header">
-                <div class="container-fluid">
-                    <!--My logo-->
-                    <div class="row">
-                        <div class="col-md-12 my-logo text-center">
-                            <img src="images/my-logo.png" class="img-fluid">
-                            
-                        </div>
-                        
-                        
-                    </div>
-                    <div class="row">
+            <div class="about-me-content">
+                <div class="about-me-img">
+                    <img src="images/me.jpg">
+                </div>
+                <div class="about-me-text">
+                    <p >
+                        Cześć! Nazywam się Łukasz Sztormowski i chcę zostać Junior Front-End Developoerem. Jestem kursantem InfoShareAcademy. Obecnie pracuję w CKU w Sopocie, ale zapisałem się na kurs aby przekształcić moją pasję do tworzenia stron internetowych w zawód. Więcej informacji o mnie znajdziesz po kliknięciu w przycisk znajdujący się poniżej.
 
-                        <div class="col-md-12">
-
-                            <h1>Szukasz profesjonalnej strony www?<br /> Dobrze trafiłeś!</h1>
-
-
-                        </div>
-
-                    </div>
+                    </p>
+                    <a href="#linkedIn" class="about-me-button">Zobczacz</a>
 
                 </div>
+            </div>
+
+            <div class="achievements">
+                <h4 class="achievements-title">Po kursie będę sprawnie posługiwał się:</h4>
+                <div class="achievements-items">
+                    <div><img src="images/html5-icon.png"></div>
+                    <div><img src="images/css-icon.png"></div>
+                    <div><img src="images/js-icon.png"></div>
+                    <div><img src="images/bootstrap-icon.png"></div>
+                    <div><img src="images/react-icon.png"></div>
+
+                </div>
+            </div>
+        </section>
+        <!--Portfolio-->
+        <section class="portfolio">
+            <section id="portfolio" class="section-title">
+                <h2>Portfolio</h2>
             </section>
-        </header>
 
-        <main>
-            <!-- About me-->
-            <section id="about-me" class="info-about-me">
-                <div class="contaier-fluid">
-                    <!-- Section title-->
-                    <div class="row">
-                        <div class="col-md-12 section-title"><h2>O mnie</h2></div>
-
-                    </div>
-                    <div class="row align-items-center">
-                        <!--Picture-->
-                        <div class="col-md-4 col-sm-12">
-                            <img src="images/me.jpg " class="mx-auto d-block picture-of-me img-fluid" alt="Picture of me">
-                        </div>
-                        <div class="col-md-8 col-sm-12">
-                            <p class="text-about-me">
-                                Cześć! Nazywam się Łukasz Sztormowski i chcę zostać <strong>Junior Front-End Developoerem</strong>. Jestem kursantem <strong>InfoShareAcademy</strong>. Obecnie pracuję w CKU w Sopocie,
-                                ale zapisałem się na kurs aby przekształcić moją pasję do tworzenia stron internetowych w zawód.
-                                Więcej informacji o mnie znajdziesz
-                                po kliknięciu w przycisk znajdujący się poniżej.
-
-                            </p>
-
-                            <p class="text-center">
-                                <a href="https://www.linkedin.com/in/%C5%82ukasz-sztormowski-905516151/" class="about-me-button" target="_blank">Zobacz</a>
-                            </p>
-
-
-                        </div>
-
+            <!--Portfolio items-->
+            <div class="portfolio-items">
+                <!--Portfolio item-->
+                <!--Github-->
+                <div class="portfolio-item">
+                    <div class="portfolio-item-img">
+                        <img src="images/portfolio/portolio-github.jpg" alt="Github logo">
 
                     </div>
+                    <div class="portfolio-item-description">
+                        <p class="portfolio-item-title">
+                            Github
+                        </p>
+                        <p>
+                            Opis itemu portfolia
+                        </p>
+                    </div>
+                </div>
 
-                    <!-- Achievements icons-->
-                    <div class="row">
-                        <div class="col-md-12 achievements text-center">
-                            <h4>Gdy ukończę kurs będę sprawnie posługiwał się:</h4>
-                            <img src="images/html5-icon.png">
-                            <img src="images/css-icon.png">
-                            <img src="images/js-icon.png">
-                            <img src="images/bootstrap-icon.png">
-                            <img src="images/react-icon.png">
-
-                        </div>
+                <!--Portfolio item-->
+                <!--CKU sopot-->
+                <div class="portfolio-item">
+                    <div class="portfolio-item-img">
+                        <img src="images/portfolio/portolio-ckusopot.jpg" alt="cku sopot logo">
 
                     </div>
+                    <div class="portfolio-item-description">
+                        <p class="portfolio-item-title">
+                            ckusopot
+                        </p>
+                        <p>
+                            Opis itemu portfolia
+                        </p>
+                    </div>
+                </div>
 
+                <!--Portfolio item-->
+                <!--Obrppd-->
+                <div class="portfolio-item">
+                    <div class="portfolio-item-img">
+                        <img src="images/portfolio/portolio-obrppd.jpg" alt="obrppd logo">
 
+                    </div>
+                    <div class="portfolio-item-description">
+                        <p class="portfolio-item-title">
+                            Github
+                        </p>
+                        <p>
+                            Opis itemu portfolia
+                        </p>
+                    </div>
                 </div>
 
 
-            </section>
+            </div>
+        </section>
+    </main>
 
-            <!-- Portfolio-->
-            <section id="portfolio" class="my-portfolio">
-                <div class="contaier-fluid">
-                    <!-- Section title-->
-                    <div class="row">
-                        <div class="col-md-12 section-title"><h2>Moje Portfolio</h2></div>
+</div>
+    <!--&lt;!&ndash;Whole site container&ndash;&gt;-->
+    <!--<div class="container">-->
+        <!--&lt;!&ndash;Header&ndash;&gt;-->
+        <!--<header>-->
+            <!--&lt;!&ndash; Main menu&ndash;&gt;-->
+            <!--<section id="start" class="menu">-->
+                <!--<nav class="main-menu">-->
+                        <!--<ul>-->
+                            <!--<li>-->
+                                <!--<a href="#start">Start</a>-->
+                            <!--</li>-->
+                            <!--<li>-->
+                                <!--<a href="#about-me">O mnie</a>-->
+                            <!--</li>-->
+                            <!--<li>-->
+                                <!--<a href="#portfolio">Portfolio</a>-->
+                            <!--</li>-->
+                            <!--<li>-->
+                                <!--<a href="#contact">Kontakt</a>-->
+                            <!--</li>-->
 
-                    </div>
-                    <div class="row">
-                        <!-- Portfolio Github-->
-                        <div class="col-md-4  col-sm-6  ">
+                        <!--</ul>-->
 
-                            <div class="portfolio-description">
-                                <a href="https://github.com/qkiczw" target="_blank" class="mx-auto d-block"><img src="images/portfolio/portolio-github.jpg" class="mx-auto d-block portfolio-img img-fluid" alt="Picture of github"></a>
-                                <span class="portfolio-item-title mx-auto d-block">github/qkiczw</span>
-                                <p class="portfolio-item-info mx-auto d-block">
-                                    Link do moich repozytriów na Github`ie gdzie znajdziesz różne moje projekty i pomysły.
-                                </p>
+                <!--</nav>-->
 
-                            </div>
+            <!--</section>-->
+            <!--<section class="header-logo">-->
 
-                        </div>
-                        <!-- Portfolio ckusopot-->
-                        <div class="col-md-4 col-sm-6">
-                            <div class="portfolio-description">
-                                <a href="http://ckusopot.pl" target="_blank" class="mx-auto d-block"><img src="images/portfolio/portolio-ckusopot.jpg" class="mx-auto d-block portfolio-img img-fluid" alt="Picture of ckusopot.pl"></a>
-                                <span class="portfolio-item-title mx-auto d-block">ckusopot.pl</span>
-                                <p class="portfolio-item-info mx-auto d-block">
-                                    Strona Centrum Kształcenia Ustawicznego w Sopocie. Stworzona min.za pomocą HTML, CSS, framework`a BOOTSRAP oraz JOOMLA.
-                                </p>
-
-                            </div>
-
-                        </div>
-                        <!-- Portfolio obrppd-->
-                        <div class="col-md-4 col-sm-6">
-
-                            <div class="portfolio-description">
-                                <a href="http://obrppd.com.pl" target="_blank" class=" mx-auto d-block"><img src="images/portfolio/portolio-obrppd.jpg" class="mx-auto d-block portfolio-img img-fluid" alt="Picture of obrppd.com.pl"></a>
-                                <span class="portfolio-item-title mx-auto d-block">obrrppd</span>
-                                <p class="portfolio-item-info mx-auto d-block">
-                                    Strona Ośrodka Badawczo Rozwojowego. Stworzona min.za pomocą HTML, CSS oraz framework`a BOOTSTRAP.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </section>
-
-            <!--Contact-->
-            <section id="contact">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h2 class="section-title">Kontakt</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12 contact-info mx-auto text-center">
-                            <address>
-
-                                <i class="fa fa-phone-square"></i> 504 928 760<br />
-                                <i class="fa fa-envelope"></i> <a href="mailto:lukaszsztormowski@gmail.com">lukaszsztormowski@gmail.com</a><br />
-                                <i class="fa fa-linkedin-square"></i> <a href="https://www.linkedin.com/in/%C5%82ukasz-sztormowski-905516151/">LinkedIn</a>
-                            </address>
+                    <!--&lt;!&ndash;My logo&ndash;&gt;-->
+                            <!--<div class="my-logo">-->
+                                <!--<img src="images/my-logo.png" class="my-logo-img">-->
+                            <!--</div>-->
+                            <!--<div class="header-logo-text">-->
+                                <!--<h1>Szukasz profesjonalnej strony www?<br /> Dobrze trafiłeś!</h1>-->
+                            <!--</div>-->
 
 
-                        </div>
-                    </div>
 
-                </div>
 
-            </section>
+            <!--</section>-->
+        <!--</header>-->
 
-        </main>
-        <!--Footer-->
+        <!--<main>-->
+            <!--&lt;!&ndash; About me&ndash;&gt;-->
+            <!--<section>-->
+                <!--&lt;!&ndash;Section Title&ndash;&gt;-->
+                <!--<div class="section-title"><h2>O mnie</h2></div>-->
+            <!--</section>-->
+            <!--<section id="about-me">-->
+                <!--<div class="about-me">-->
+                    <!--&lt;!&ndash;Picture&ndash;&gt;-->
+                    <!--<div class="about-me-picture">-->
+                        <!--<img src="images/me.jpg"  alt="Picture of me">-->
+                        <!--<p class="about-me-text">-->
+                            <!--Cześć! Nazywam się Łukasz Sztormowski i chcę zostać <strong>Junior Front-End Developoerem</strong>. Jestem kursantem <strong>InfoShareAcademy</strong>. Obecnie pracuję w CKU w Sopocie,-->
+                            <!--ale zapisałem się na kurs aby przekształcić moją pasję do tworzenia stron internetowych w zawód.-->
+                            <!--Więcej informacji o mnie znajdziesz-->
+                            <!--po kliknięciu w przycisk znajdujący się poniżej.-->
 
-        <footer>
-            <section id="footer">
-                Łukasz Sztormowski &copy; 2017
-            </section>
-        </footer>
+                        <!--</p>-->
+                    <!--</div>-->
 
-    </div>
+                    <!--<div class="about-me-text">-->
+                        <!--<p>-->
+                            <!--Cześć! Nazywam się Łukasz Sztormowski i chcę zostać <strong>Junior Front-End Developoerem</strong>. Jestem kursantem <strong>InfoShareAcademy</strong>. Obecnie pracuję w CKU w Sopocie,-->
+                            <!--ale zapisałem się na kurs aby przekształcić moją pasję do tworzenia stron internetowych w zawód.-->
+                            <!--Więcej informacji o mnie znajdziesz-->
+                            <!--po kliknięciu w przycisk znajdujący się poniżej.-->
+
+                        <!--</p>-->
+                        <!--<p class="button">-->
+                            <!--<a href="https://www.linkedin.com/in/%C5%82ukasz-sztormowski-905516151/" class="about-me-button" target="_blank">Zobacz</a>-->
+
+                        <!--</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+
+                    <!--&lt;!&ndash; Achievements icons&ndash;&gt;-->
+                    <!--<h4 class="achievements-title">Gdy ukończę kurs będę sprawnie posługiwał się:</h4>-->
+                        <!--<div class="achievements">-->
+
+                            <!--<div><img src="images/html5-icon.png"></div>-->
+                            <!--<div><img src="images/css-icon.png"></div>-->
+                            <!--<div><img src="images/js-icon.png"></div>-->
+                            <!--<div><img src="images/bootstrap-icon.png"></div>-->
+                            <!--<div><img src="images/react-icon.png"></div>-->
+
+                        <!--</div>-->
+
+            <!--</section>-->
+
+            <!--&lt;!&ndash; Portfolio&ndash;&gt;-->
+            <!--<section id="portfolio" class="my-portfolio">-->
+                <!--<section>&lt;!&ndash; Section title&ndash;&gt;-->
+                    <!--<div class="section-title"><h2>Moje Portfolio</h2></div>-->
+                <!--</section>-->
+                <!--<div>-->
+                    <!--<div class="my-portfolio-item">-->
+                        <!--&lt;!&ndash; Portfolio Github&ndash;&gt;-->
+                        <!--<div class="my-portfolio-item-box">-->
+                            <!--<a href="https://github.com/qkiczw" target="_blank" class=""><img src="images/portfolio/portolio-github.jpg" class="portfolio-img" alt="Picture of github"></a>-->
+
+                            <!--<div class="my-portfolio-description">-->
+                                <!--<span class="my-portfolio-item-title">github/qkiczw</span>-->
+                                <!--<p class="portfolio-item-info">-->
+                                    <!--Link do moich repozytriów na Github`ie gdzie znajdziesz różne moje projekty i pomysły.-->
+                                <!--</p>-->
+
+                            <!--</div>-->
+
+                        <!--</div>-->
+
+                        <!--&lt;!&ndash; Portfolio CKU&ndash;&gt;-->
+                        <!--<div class="my-portfolio-item-box">-->
+                            <!--<a href="https://ckusopot.pl" target="_blank" class=""><img src="images/portfolio/portolio-ckusopot.jpg" alt="Picture of github"></a>-->
+
+                            <!--<div class="my-portfolio-description">-->
+                                <!--<span class="my-portfolio-item-title">ckusopot.pl</span>-->
+                                <!--<p class="portfolio-item-info">-->
+                                    <!--Strona Centrum Kształcenia Ustawicznego w Sopocie. Stworzona min.za pomocą HTML, CSS, framework`a BOOTSRAP oraz JOOMLA.-->
+                                <!--</p>-->
+
+                            <!--</div>-->
+
+                        <!--</div>-->
+
+
+                        <!--&lt;!&ndash; Portfolio OBRPPD&ndash;&gt;-->
+                        <!--<div class="my-portfolio-item-box">-->
+                            <!--<a href="https://obrppd.com.pl" target="_blank" class=""><img src="images/portfolio/portolio-obrppd.jpg" alt="Picture of github"></a>-->
+
+                            <!--<div class="my-portfolio-description">-->
+                                <!--<span class="my-portfolio-item-title">ckusopot.pl</span>-->
+                                <!--<p class="portfolio-item-info">-->
+                                    <!--Strona Ośrodka Badawczo Rozwojowego. Stworzona min.za pomocą HTML, CSS oraz framework`a BOOTSTRAP.-->
+                                <!--</p>-->
+
+                            <!--</div>-->
+
+                        <!--</div>-->
+
+                    <!--</div>-->
+
+                <!--</div>-->
+            <!--</section>-->
+
+            <!--&lt;!&ndash;Contact&ndash;&gt;-->
+            <!--<section id="contact">-->
+                <!--<div class="container-fluid">-->
+                    <!--<div class="row">-->
+                        <!--<div class="col-md-12">-->
+                            <!--<h2 class="section-title">Kontakt</h2>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="row">-->
+                        <!--<div class="col-md-12 contact-info mx-auto text-center">-->
+                            <!--<address>-->
+
+                                <!--<i class="fa fa-phone-square"></i> 504 928 760<br />-->
+                                <!--<i class="fa fa-envelope"></i> <a href="mailto:lukaszsztormowski@gmail.com">lukaszsztormowski@gmail.com</a><br />-->
+                                <!--<i class="fa fa-linkedin-square"></i> <a href="https://www.linkedin.com/in/%C5%82ukasz-sztormowski-905516151/">LinkedIn</a>-->
+                            <!--</address>-->
+
+
+                        <!--</div>-->
+                    <!--</div>-->
+
+                <!--</div>-->
+
+            <!--</section>-->
+
+        <!--</main>-->
+        <!--&lt;!&ndash;Footer&ndash;&gt;-->
+
+        <!--<footer>-->
+            <!--<section id="footer">-->
+                <!--Łukasz Sztormowski &copy; 2017-->
+            <!--</section>-->
+        <!--</footer>-->
+
+    <!--</div>-->
 
 
     
-    <!-- Bootstrap JQuery, JS   -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <!--&lt;!&ndash; Bootstrap JQuery, JS   &ndash;&gt;-->
+    <!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>-->
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>-->
 
 </body>
 </html>
