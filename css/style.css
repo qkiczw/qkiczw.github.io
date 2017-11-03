@@ -9,7 +9,7 @@ body{
 
 a{
     text-decoration: none;
-    color: #B82601;
+    color: #A22101;
 
 }
 
@@ -26,6 +26,7 @@ a:hover{
 .section-title{
     padding-top: 5px;
     text-align: center;
+    font-weight: bold;
 }
 
 /*Header*/
@@ -40,11 +41,20 @@ header{
 /*Logo and H1 Text*/
 .header-content{
     text-align: center;
-    padding-top: 10%;
+
+    color: black;
+
+
+}
+
+.header-content h1{
+    text-shadow: 1px 1px #3e383b;
+
 
 }
 
 .header-content img {
+    padding-top: 7%;
     max-width: 70%;
 }
 
@@ -56,7 +66,7 @@ header{
 }
 .main-menu ul{
     margin-top: 0;
-    background-color: #000000;
+    background-color: #242929;
     mi-height: 50px;
 }
 
@@ -68,14 +78,14 @@ header{
 }
 
 .main-menu a{
-    color: #B82601;
+    color: #ffffff;
     word-spacing: 10px;
     padding-left: 10px;
 
 }
 
 .main-menu a:hover{
-    color: rgba(184, 81, 37, 0.77);
+    color: #78726b;
     word-spacing: 10px;
     padding-left: 10px;
 
@@ -89,7 +99,7 @@ header{
 
 .about-me-content{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     padding-right: 1%;
 
@@ -98,9 +108,9 @@ header{
 
 .about-me-img img{
     max-width: 300px;
-    border: 2px solid #B82601;
+    border: 3px solid #A22101;
     border-radius: 50%;
-    padding: 2px;
+    padding: 4px;
 }
 
 
@@ -117,9 +127,9 @@ header{
 }
 
 .about-me-button {
-    border: 1px solid #B82601;
+    border: 2px solid #A22101;
     border-radius: 5px;
-    color: #B82601;
+    color: #A22101;
     padding: 5px 10px;
 }
 
@@ -163,8 +173,6 @@ header{
     align-items: center;
     width: 30%;
     flex-wrap: wrap;
-    padding-right: 3%;
-
 
 }
 .portfolio-item-description{
@@ -184,8 +192,7 @@ header{
     padding: 2px;
 }
 .portfolio-item-img img:hover {
-    width: 300px;
-    border: 2px solid #B82601;
+    border: 2px solid #A22101;
     border-radius: 5px;
 
 }
@@ -199,7 +206,7 @@ header{
 
 /*Footer*/
 footer{
-    background-color: black;
+    background-color: #242929;
     color: #ffffff;
     text-align: center;
 }
@@ -208,9 +215,17 @@ footer{
 
 /*Extra Large Screen*/
 @media screen and (min-width: 1200px){
-    header{
+    header {
         min-height: 100vh;
     }
+    header h1{
+        font-size: 2em;
+    }
+    .header-content img {
+
+        max-width: 70%;
+    }
+
 }
 
 /*Large Screen*/
@@ -229,9 +244,13 @@ footer{
     .about-me-img img{
         max-width: 200px;
     }
+    .portfolio-items{
+        align-content: center;
+        justify-content: space-between;
+    }
 
     .portfolio-item img{
-        width: 250px;
+        width: 220px;
     }
 }
 /*Small screen*/
@@ -258,8 +277,9 @@ footer{
 
     }
 
+
     .about-me-text {
-        width: 100%;
+        max-width: 95%;
     }
 
     .about-me-img {
@@ -269,6 +289,24 @@ footer{
 
     .about-me-img img {
         max-width: 200px;
+    }
+
+    .portfolio-items{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portfolio-item{
+        width: 80%;
+    }
+    .portfolio-item-title{
+        margin-top: 1%;
+        padding-bottom: 1%;
+    }
+
+    .portfolio-item p{
+        margin-top: 1%;
+        padding-bottom: 5%;
     }
 
     .portfolio-item img{
@@ -300,6 +338,11 @@ footer{
         justify-content: center;
     }
 
+    .about-me-text {
+        max-width: 95%;
+
+    }
+
     .about-me-img img {
         max-width: 200px;
     }
@@ -312,6 +355,16 @@ footer{
         flex-direction: column;
         align-items: center;
     }
+
+    .portfolio-item{
+        width: 80%;
+    }
+
+    .portfolio-item p{
+        margin-top: 1%;
+        padding-bottom: 5%;
+    }
+
 
 }
 
