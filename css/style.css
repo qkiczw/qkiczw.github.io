@@ -7,10 +7,16 @@ body{
     padding: 0;
 }
 
-a, a:hover{
+a{
     text-decoration: none;
+    color: #B82601;
+
 }
 
+a:hover{
+    color: rgba(184, 38, 1, 0.77);
+
+}
 .container{
     width: 100%;
 
@@ -31,8 +37,10 @@ header{
     min-height: 1080px;
 
 }
+/*Logo and H1 Text*/
 .header-content{
     text-align: center;
+    padding-top: 10%;
 
 }
 
@@ -66,8 +74,15 @@ header{
 
 }
 
+.main-menu a:hover{
+    color: rgba(184, 81, 37, 0.77);
+    word-spacing: 10px;
+    padding-left: 10px;
+
+}
+
 /*About me*/
-.about-me{
+.about-me {
 
 
 }
@@ -76,13 +91,10 @@ header{
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    padding-right: 1%;
 
 }
 
-.about-me-img{
-    max-width: 29%;
-
-}
 
 .about-me-img img{
     max-width: 300px;
@@ -120,6 +132,9 @@ header{
 
 }
 
+.achievements{
+    margin-bottom: 5%;
+}
 .achievements-title{
     text-align: center;
 }
@@ -132,6 +147,7 @@ header{
     color: #ffffff;
     background-color: #062f4f;
     min-height: 500px;
+    padding-bottom: 5%;
 }
 
 .portfolio-items{
@@ -143,13 +159,19 @@ header{
 .portfolio-item{
     display: flex;
     flex-direction: column;
+    align-content: flex-start;
     align-items: center;
+    width: 30%;
+    flex-wrap: wrap;
+    padding-right: 3%;
+
 
 }
 .portfolio-item-description{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 .portfolio-item-title{
     text-transform: uppercase;
@@ -161,24 +183,61 @@ header{
     border-radius: 5px;
     padding: 2px;
 }
+.portfolio-item-img img:hover {
+    width: 300px;
+    border: 2px solid #B82601;
+    border-radius: 5px;
 
-/*Media Queries*/
+}
 
+/*Contact*/
+.contact-content{
+    text-align: center;
+    line-height: 1.5em;
+    margin-bottom: 5%;
+}
 
+/*Footer*/
+footer{
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+}
+
+/*----- Media Queries -----*/
+
+/*Extra Large Screen*/
+@media screen and (min-width: 1200px){
+    header{
+        min-height: 100vh;
+    }
+}
+
+/*Large Screen*/
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    header{
+        min-height: 100vh;
+
+    }
+}
 /*Tablet*/
 @media screen and (min-width: 768px) and (max-width: 991px){
     header{
-        min-height: 680px;
-
+        min-height: 100vh;
     }
+
     .about-me-img img{
         max-width: 200px;
+    }
+
+    .portfolio-item img{
+        width: 250px;
     }
 }
 /*Small screen*/
 @media screen and (min-width: 576px) and (max-width: 767px) {
     header {
-        min-height: 500px;
+        min-height: 100vh;
 
     }
 
@@ -200,7 +259,6 @@ header{
     }
 
     .about-me-text {
-
         width: 100%;
     }
 
@@ -213,11 +271,15 @@ header{
         max-width: 200px;
     }
 
+    .portfolio-item img{
+        width: 200px;
+    }
+
 }
 /* Extra Small Screen*/
 @media screen and (max-width: 575px) {
     header {
-        min-height: 580px;
+        min-height: 100vh;
 
     }
 
@@ -244,6 +306,11 @@ header{
 
     .portfolio-item-img img {
         width: 200px;
+    }
+
+    .portfolio-items{
+        flex-direction: column;
+        align-items: center;
     }
 
 }
