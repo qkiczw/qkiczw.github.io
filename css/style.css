@@ -51,19 +51,24 @@ a, a:focus, a:visited, a:link{
     background-position: 50% 50%;
     background-size: cover ;
     margin-top: 0;
+    padding-top: 15%;
+}
+
+.picture-of-me{
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+    width: 220px;
+    margin: auto 20%;
+    padding: 3px;
 }
 
 .my-logo{
-    margin-top: 150px;
+    width: 400px;
 }
 
 .header h1{
-    font-size: 5em;
-    font-weight: 700;
-    margin-top: 50px;
-    padding-top: 0;
+    font-size: 20px;
     color: white;
-    text-shadow: 1px 1px black;
     text-align: center;
 }
 
@@ -103,24 +108,14 @@ a, a:focus, a:visited, a:link{
     background-color: #F0A86C;
 }
 
-.picture-of-me{
-    border: 5px solid #B82601;
-    border-radius: 50%;
-    width: 300px;
-    margin: auto 20%;
-    padding: 10px;
-}
-
 .text-about-me{
-    padding-top: 100px;
-    padding-right: 15px;
     margin-bottom: 50px;
     text-align: justify;
 }
-.achievements{
-    margin-top: 50px;
-}
 
+.achievements h5{
+    font-weight:  bold;
+}
 .achievements img{
     width: 100px;
     margin: 10px;
@@ -204,7 +199,7 @@ footer{
 
     /*h1 size on small screen*/
     .header h1 {
-        font-size: 4em;
+        font-size: 1.5em;
         font-weight: 700;
         margin-top: 20px;
     }
