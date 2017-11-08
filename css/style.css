@@ -113,7 +113,15 @@ a, a:focus, a:visited, a:link{
     text-align: justify;
 }
 
+/*Achievements*/
+.achievements-icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .achievements h5{
+    text-align: center;
     font-weight:  bold;
 }
 .achievements img{
