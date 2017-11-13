@@ -83,6 +83,10 @@ a, a:focus, a:visited, a:link{
 }
 
 .about-me-button{
+    margin-bottom: 40px;
+}
+
+.about-me-button-link{
     width: 150px;
     margin-top: 50px;
     border: solid 2px #B82601;
@@ -94,7 +98,7 @@ a, a:focus, a:visited, a:link{
     padding: 5px 20px;
 }
 
-.about-me-button:hover{
+.about-me-button-link:hover{
     background-color: #F0A86C;
 }
 
