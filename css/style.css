@@ -64,13 +64,13 @@ a, a:focus, a:visited, a:link{
 
 .header-text{
     font-size: 20px;
-    color: white;
+    color: #ffffff;
     text-align: center;
 }
 
 /*Section title*/
 .section-title {
-    margin-top: 50px;
+    margin-top: 25px;
     margin-bottom: 50px;
     text-align: center;
     text-transform: uppercase;
@@ -78,13 +78,7 @@ a, a:focus, a:visited, a:link{
 }
 
 /*About me*/
-
-#about-me h2{
-    font-weight: 700;
-}
-
-#about-me{
-    margin-bottom: 50px;
+.info-about-me{
     min-height: 500px;
 }
 
@@ -126,13 +120,13 @@ a, a:focus, a:visited, a:link{
 }
 
 /*Portfolio*/
-#portfolio {
+.my-portfolio {
     margin-top: 20px;
     background-color: #062f4f;
     padding-bottom: 50px;
 }
 
-#portfolio a{
+.my-portfolio a{
     color: #ffffff;
 }
 
@@ -147,9 +141,8 @@ a, a:focus, a:visited, a:link{
     border: 2px solid #B82601;
 }
 
-#portfolio h2{
+.my-portfolio h2{
     color: #ffffff;
-    font-weight: 700;
 }
 
 .portfolio-description{
