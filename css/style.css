@@ -105,21 +105,29 @@ a, a:focus, a:visited, a:link{
 .text-about-me{
     margin-bottom: 50px;
     text-align: justify;
+    padding: 0 5%;
+
 }
 
 /*Achievements*/
 .achievements-icons{
+    max-width: 90%;
+
+}
+.achievements-icons figure{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+
 }
 
 .achievements h5{
     text-align: center;
     font-weight:  bold;
 }
-.achievements img{
-    width: 100px;
+.achievements-icons img{
+    width: 75px;
     margin: 10px;
 }
 
@@ -181,7 +189,7 @@ a, a:focus, a:visited, a:link{
 footer{
     height: 50px;
     margin-top: 50px;
-    padding-top: 20px;
+    padding-top: 10px;
     background-color: #343a40;
     color: #ffffff;
     text-align: center;
