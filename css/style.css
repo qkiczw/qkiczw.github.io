@@ -130,6 +130,9 @@ a, a:focus, a:visited, a:link{
     width: 75px;
     margin: 10px;
 }
+.achievements-description p{
+    margin-bottom: 0;
+}
 
 /*Portfolio*/
 .my-portfolio {
