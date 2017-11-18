@@ -35,6 +35,11 @@ a, a:focus, a:visited, a:link{
 
 .main-menu li{
     display: inline-block;
+
+}
+
+li.nav-item{
+    padding-left: 20px;
 }
 
 /*Header */
@@ -47,7 +52,7 @@ a, a:focus, a:visited, a:link{
     background-position: 50% 50%;
     background-size: cover ;
     margin-top: 0;
-    padding-top: 15%;
+    padding-top: 10%;
 }
 
 .picture-of-me{
@@ -62,8 +67,8 @@ a, a:focus, a:visited, a:link{
     width: 450px;
 }
 
-.header-text{
-    font-size: 20px;
+h1.header-text{
+    font-size: 30px;
     color: #ffffff;
     text-align: center;
 }
