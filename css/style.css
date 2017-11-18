@@ -231,6 +231,11 @@ footer{
         font-size: 30px;
     }
 
+    .portfolio-item-info{
+        padding-left:15%;
+        padding-right: 15%;
+    }
+
     /* header height on small screen*/
     .header {
         width: 100%;
