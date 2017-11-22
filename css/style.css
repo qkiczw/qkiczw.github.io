@@ -106,7 +106,8 @@ h1.header-text{
 }
 
 .about-me-button-link:hover{
-    background-color: #F0A86C;
+    background-color: #B82601;
+    color: #ffffff;
 }
 
 .text-about-me{
