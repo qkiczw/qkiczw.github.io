@@ -206,6 +206,8 @@ footer{
 
 /*Media Queries*/
 @media screen and (min-width: 1367px){
+
+
     .header-text{
         font-size: 40px;
         font-weight: bold;
@@ -218,18 +220,23 @@ footer{
 }
 
 
-@media all and (max-width:1366px) {
+@media screen and (max-width:1366px) {
     body{
         font-size: 18px;
     }
 
-    .my-logo img {
-        margin-top: 0;
-        width: 700px;
+    .picture-of-me{
+        width: 300px;
     }
 
-    .header-text{
-        font-size: 30px;
+
+    .my-logo {
+        margin-top: 0;
+        width: 500px;
+    }
+
+    h1.header-text{
+        font-size: 40px;
     }
 
     .portfolio-item-info{
