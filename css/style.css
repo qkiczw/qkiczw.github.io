@@ -192,8 +192,9 @@ h1.header-text{
 
 /*Contact*/
 .contact-info{
-    font-size: 20px;
+
 }
+
 
 /*Footer*/
 footer{
@@ -227,11 +228,21 @@ footer{
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
+    .picture-of-me{
+        width: 300px;
+    }
+    .my-logo{
+        width: 350px;
+    }
 
+    h1.header-text{
+        font-size: 35px;
+    }
 }
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
+    
 
 }
 
