@@ -190,10 +190,6 @@ h1.header-text{
     text-align: center;
 }
 
-/*Contact*/
-.contact-info{
-
-}
 
 
 /*Footer*/
@@ -220,10 +216,6 @@ footer{
     h1.header-text{
         font-size: 25px;
     }
-
-    address{
-        font-size: 0.8em;
-    }
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -242,7 +234,7 @@ footer{
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-    
+
 
 }
 
