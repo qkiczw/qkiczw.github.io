@@ -56,7 +56,6 @@ li.nav-item{
     background-position: 50% 50%;
     background-size: cover ;
     margin-top: 0;
-    padding-top: 10%;
 }
 
 .picture-of-me{
@@ -210,10 +209,10 @@ footer{
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px){
     .picture-of-me{
-        width: 250px;
+        width: 280px;
     }
     .my-logo{
-        width: 270px;
+        width: 320px;
     }
 
     h1.header-text{
@@ -227,7 +226,7 @@ footer{
         width: 300px;
     }
     .my-logo{
-        width: 350px;
+        width: 370px;
     }
 
     h1.header-text{
