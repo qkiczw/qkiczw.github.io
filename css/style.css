@@ -22,6 +22,9 @@ a, a:focus, a:visited, a:link{
 }
 
 /* main menu */
+nav{
+    box-shadow: 0 0 10px black;
+}
 
 .main-menu ul{
     height: 60px;
