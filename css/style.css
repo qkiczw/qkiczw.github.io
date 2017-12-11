@@ -67,6 +67,8 @@ li.nav-item{
 
 .my-logo{
     width: 220px;
+    display: none;
+    position: relative;
 }
 
 h1.header-text{
