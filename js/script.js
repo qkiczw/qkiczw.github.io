@@ -9,5 +9,13 @@ $(function(){
 
 
     var $myLogo = $('.my-logo');
-    $myLogo.fadeIn('750');
+    var $welcomeText = $('.header-text');
+    var $pictureOfMe = $('.picture-of-me');
+
+    $pictureOfMe.fadeIn();
+    $welcomeText.animate({right: '0'}, 600);
+    $myLogo.animate({left: '0'}, 700);
+
+
+
 });
