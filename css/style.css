@@ -63,18 +63,21 @@ li.nav-item{
     border-radius: 50%;
     width: 200px;
     padding: 3px;
+    display: none;
 }
 
 .my-logo{
     width: 220px;
-    display: none;
     position: relative;
+    left: -1300px;
 }
 
 h1.header-text{
     font-size: 20px;
     color: #ffffff;
     font-weight: bold;
+    position: relative;
+    right: -1000px;
 }
 
 /*Section title*/
