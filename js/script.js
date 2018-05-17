@@ -37,8 +37,8 @@ $(function(){
 
 $navLinks.on('click', scrollToSection);
 
-
-
+const $navbarMyBrand = $('.navbar-my-brand');
+const $navbarMyLogo = $('.navbar-my-logo');
 const $portfolioRow1 = $('.portfolio-row-1');
 const $portfolioRow2 = $('.portfolio-row-2');
 const $portfolioRow3 = $('.portfolio-row-3');
@@ -54,12 +54,24 @@ function showPortfolioRow() {
         $portfolioRow3.css('opacity', '1')
     }
 }
-$window.on('scroll', showPortfolioRow)
 
-
-function checkPos(){
+function checkPos() {
     console.log('Ypos', $window.scrollTop())
 }
+
+function changeMyBrandToLogo() {
+    if($window.scrollTop() > 400){
+        $navbarMyBrand.css('display', 'none');
+        $navbarMyLogo.css('display', 'block');
+    }
+    else{
+        $navbarMyLogo.css('display', 'none');
+        $navbarMyBrand.css('display', 'block');
+    }
+}
+
+$window.on('scroll', changeMyBrandToLogo)
+$window.on('scroll', showPortfolioRow)
 $window.on('scroll', checkPos)
 
 });

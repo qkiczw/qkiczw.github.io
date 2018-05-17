@@ -28,6 +28,15 @@ nav{
     box-shadow: 0 0 10px black;
 }
 
+.navbar-my-brand{
+    display: block;
+}
+.navbar-my-logo{
+    display: none;
+}
+.navbar-my-logo img{
+    max-height: 40 px;
+}
 .main-menu ul{
     height: 60px;
     margin-bottom: 0;
