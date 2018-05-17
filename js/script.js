@@ -24,6 +24,7 @@ $(function(){
     function scrollToSection() {
         const animationTime = 700;
         const anchor = $(this).attr('href');
+        console.log(anchor)
         $(this)
             .parent()
             .addClass('active')
@@ -34,5 +35,7 @@ $(function(){
     }
 
 $navLinks.on('click', scrollToSection);
+
+
 
 });
