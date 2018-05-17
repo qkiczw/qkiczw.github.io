@@ -186,6 +186,11 @@ h1.header-text{
     align-items: center;
     margin-bottom: 30px;
     padding: 0% 10%;
+    
+}
+.portfolio-row-1,  .portfolio-row-2, .portfolio-row-3{
+    opacity: 0;
+    transition-duration:1s;
 }
 
 .portfolio-item-title{
