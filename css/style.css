@@ -81,7 +81,7 @@ li.nav-item{
 .my-logo{
     width: 220px;
     position: relative;
-    left: -1300px;
+    left: -1500px;
 }
 
 h1.header-text{
@@ -89,7 +89,7 @@ h1.header-text{
     color: #ffffff;
     font-weight: bold;
     position: relative;
-    right: -1000px;
+    right: -1500px;
 }
 
 /*Section title*/
@@ -147,7 +147,6 @@ h1.header-text{
     justify-content: center;
     align-items: center;
     margin: 0;
-
 }
 
 .achievements h5{
@@ -230,6 +229,15 @@ footer{
     background-color: #343a40;
     color: #ffffff;
     text-align: center;
+}
+
+.scroll-to-top-btn{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    font-size: 50px;
+    cursor: pointer;
+    display: none;
 }
 
 /*----------------------Media Queries----------------------*/

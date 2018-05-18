@@ -2,25 +2,27 @@ $(function(){
     const $getLink = $('.navbar-nav>li>a')
     const $getNavCollapse = $('.navbar-collapse');
     const $window = $(window)
+    const $scrollToTopBtn = $('.scroll-to-top-btn');
+    const $myLogo = $('.my-logo');
+    const $welcomeText = $('.header-text');
+    const $pictureOfMe = $('.picture-of-me');
+    const $page = $('body, html');
+    const $navbar = $('.navbar-nav');
+    const $navLinks = $navbar.find('a');
+    const $navbarMyBrand = $('.navbar-my-brand');
+    const $navbarMyLogo = $('.navbar-my-logo');
+    const $portfolioRow1 = $('.portfolio-row-1');
+    const $portfolioRow2 = $('.portfolio-row-2');
+    const $portfolioRow3 = $('.portfolio-row-3');
 
     function navHide(){
         $getNavCollapse.collapse('hide');
     }
     $getLink.on('click', navHide);
 
-
-    const $myLogo = $('.my-logo');
-    const $welcomeText = $('.header-text');
-    const $pictureOfMe = $('.picture-of-me');
-
     $pictureOfMe.fadeIn();
     $welcomeText.animate({right: '0'}, 600);
     $myLogo.animate({left: '0'}, 700);
-
-    // smooth scroll
-    const $page = $('body, html');
-    const $navbar = $('.navbar-nav');
-    const $navLinks = $navbar.find('a');
 
     function scrollToSection() {
         const animationTime = 700;
@@ -31,17 +33,8 @@ $(function(){
             .addClass('active')
             .siblings()
             .removeClass('active');
-
         $page.animate({scrollTop: $(anchor).offset().top}, animationTime);
     }
-
-$navLinks.on('click', scrollToSection);
-
-const $navbarMyBrand = $('.navbar-my-brand');
-const $navbarMyLogo = $('.navbar-my-logo');
-const $portfolioRow1 = $('.portfolio-row-1');
-const $portfolioRow2 = $('.portfolio-row-2');
-const $portfolioRow3 = $('.portfolio-row-3');
 
 function showPortfolioRow() {
     if($window.scrollTop() > 1100){
@@ -51,13 +44,13 @@ function showPortfolioRow() {
         $portfolioRow2.css('opacity', '1')
     }
     if($window.scrollTop() > 2000){
-        $portfolioRow3.css('opacity', '1')
+        $portfolioRow3.css('opacity', '1');
     }
-}
+};
 
 function checkPos() {
     console.log('Ypos', $window.scrollTop())
-}
+};
 
 function changeMyBrandToLogo() {
     if($window.scrollTop() > 400){
@@ -68,10 +61,24 @@ function changeMyBrandToLogo() {
         $navbarMyLogo.css('display', 'none');
         $navbarMyBrand.css('display', 'block');
     }
+};
+
+function toggleScrollToTopVisibility() {
+    if($(this).scrollTop() > 500) {
+        $scrollToTopBtn.fadeIn(750);
+    }else {
+        $scrollToTopBtn.fadeOut();
+    }
+};
+
+function scrollMeToTop() {
+    $page.animate({scrollTop: 0}, 1000)
 }
 
-$window.on('scroll', changeMyBrandToLogo)
-$window.on('scroll', showPortfolioRow)
-$window.on('scroll', checkPos)
-
+$navLinks.on('click', scrollToSection);
+$window.on('scroll', changeMyBrandToLogo);
+$window.on('scroll', showPortfolioRow);
+$window.on('scroll', checkPos);
+$window.on('scroll', toggleScrollToTopVisibility);
+$scrollToTopBtn.on('click', scrollMeToTop);
 });
