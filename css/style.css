@@ -139,7 +139,14 @@ h1.header-text{
 /*Achievements*/
 .achievements-icons{
     max-width: 90%;
-
+}
+.achievements-icons-left-panel{
+    position: relative;
+    left: -1500px;
+}
+.achievements-icons-right-panel{
+    position: relative;
+    right: -1500px;
 }
 .achievements-icons figure{
     display: flex;

@@ -14,6 +14,12 @@ $(function(){
     const $portfolioRow1 = $('.portfolio-row-1');
     const $portfolioRow2 = $('.portfolio-row-2');
     const $portfolioRow3 = $('.portfolio-row-3');
+    const $achievementsIconsLeftPanel = $('.achievements-icons-left-panel');
+    const $achievementsIconsRightPanel = $('.achievements-icons-right-panel');
+
+    function checkPos() {
+        console.log('Ypos', $window.scrollTop())
+    };
 
     function navHide(){
         $getNavCollapse.collapse('hide');
@@ -48,10 +54,6 @@ function showPortfolioRow() {
     }
 };
 
-function checkPos() {
-    console.log('Ypos', $window.scrollTop())
-};
-
 function changeMyBrandToLogo() {
     if($window.scrollTop() > 400){
         $navbarMyBrand.css('display', 'none');
@@ -75,10 +77,19 @@ function scrollMeToTop() {
     $page.animate({scrollTop: 0}, 1000)
 }
 
+function achievementsIconsAnimation() {
+    if($window.scrollTop() > 600) {
+        $achievementsIconsLeftPanel.animate({left: '0'}, 700);
+        $achievementsIconsRightPanel.animate({left: '0'}, 1000);
+    }
+}
+
 $navLinks.on('click', scrollToSection);
 $window.on('scroll', changeMyBrandToLogo);
 $window.on('scroll', showPortfolioRow);
 $window.on('scroll', checkPos);
 $window.on('scroll', toggleScrollToTopVisibility);
+$window.on('scroll', achievementsIconsAnimation);
 $scrollToTopBtn.on('click', scrollMeToTop);
+
 });
