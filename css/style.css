@@ -103,6 +103,10 @@ h1.header-text{
 }
 
 /*About me*/
+#about-me{
+    overflow: hidden;
+}
+
 .info-about-me{
     min-height: 500px;
 }
