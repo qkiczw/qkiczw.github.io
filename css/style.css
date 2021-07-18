@@ -165,9 +165,7 @@ h1.header-text{
 
 .text-about-me{
     margin-bottom: 50px;
-    text-align: justify;
-    padding: 0 10%;
-
+    padding: 10px;
 }
 
 /*Achievements*/
@@ -193,7 +191,7 @@ h1.header-text{
     font-weight:  bold;
 }
 .achievements-icon {
-    max-width: 200px;
+    max-width: 120px;
     transition-duration: 0.2s;
 }
 .achievements-icon:hover {
@@ -307,15 +305,22 @@ footer{
     h1.header-text{
         font-size: 35px;
     }
+    .achievements-icon {
+        max-width: 150px;
+    }
 }
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-
+    .achievements-icon {
+        max-width: 175px;
+    }
 
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-
+    .achievements-icon {
+        max-width: 200px;
+    }
 }
