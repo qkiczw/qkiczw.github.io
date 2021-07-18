@@ -6,7 +6,12 @@ html{
 
 body{
     font-size: 17px;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Archivo', sans-serif;
+}
+/* section titles */
+h1,h2,h3,h4,h5 {
+     font-family: 'Roboto', sans-serif;
 }
 
 /*remove margins and padding from left and right side of site*/
@@ -26,6 +31,8 @@ a, a:focus, a:visited, a:link{
     color:#B82601;
     text-decoration: none;
 }
+
+
 
 /* main menu */
 nav{
@@ -118,6 +125,7 @@ h1.header-text{
     text-align: center;
     text-transform: uppercase;
     font-weight: 700;
+    font-size: 40px;
     padding-top: 40px;
 }
 
@@ -131,20 +139,23 @@ h1.header-text{
 }
 
 .about-me-button{
-    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
 }
 
 .about-me-button-link{
-    width: 150px;
-    margin-top: 50px;
+    width: 250px;
     border: solid 2px #B82601;
     border-radius: 10px;
     background-color:#ffffff;
     color: #B82601;
     font-size: 1.3em;
     text-transform: uppercase;
-    padding: 5px 20px;
+    padding: 7px 25px;
     transition-duration:0.5s;
+    text-align: center;
 }
 
 .about-me-button-link:hover{
@@ -162,14 +173,11 @@ h1.header-text{
 /*Achievements*/
 .achievements-icons{
     max-width: 90%;
-}
-.achievements-icons-left-panel{
-    position: relative;
-    left: -1500px;
-}
-.achievements-icons-right-panel{
-    position: relative;
-    right: -1500px;
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 50px 0;
 }
 .achievements-icons figure{
     display: flex;
@@ -178,19 +186,19 @@ h1.header-text{
     align-items: center;
     margin: 0;
 }
-
-.achievements h5{
-    text-align: center;
+.achievements {
+    margin: 25px;
+}
+.achievements h3{
     font-weight:  bold;
 }
-.achievements-icons img{
-    width: 75px;
-    margin: 10px;
+.achievements-icon {
+    max-width: 200px;
+    transition-duration: 0.2s;
 }
-.achievements-description p{
-    margin-bottom: 0;
+.achievements-icon:hover {
+    transform: scale(1.1);
 }
-
 /*Portfolio*/
 .my-portfolio {
     margin-top: 20px;

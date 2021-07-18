@@ -17,9 +17,9 @@ $(function(){
     const $achievementsIconsLeftPanel = $('.achievements-icons-left-panel');
     const $achievementsIconsRightPanel = $('.achievements-icons-right-panel');
 
-    // function checkPos() {
-    //     console.log('Ypos', $window.scrollTop())
-    // };
+    function checkPos() {
+        console.log('Ypos', $window.scrollTop())
+    };
 
     function navHide(){
         $getNavCollapse.collapse('hide');
