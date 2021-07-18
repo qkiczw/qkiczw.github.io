@@ -28,7 +28,7 @@ h1,h2,h3,h4,h5 {
 
 /*Links*/
 a, a:focus, a:visited, a:link{
-    color:#B82601;
+    color: #0353A6;
     text-decoration: none;
 }
 
@@ -147,7 +147,7 @@ h1.header-text{
 
 .about-me-button-link{
     width: 250px;
-    border: solid 2px #B82601;
+    border: solid 2px #0353A6;
     border-radius: 10px;
     background-color:#ffffff;
     color: #B82601;
@@ -159,7 +159,7 @@ h1.header-text{
 }
 
 .about-me-button-link:hover{
-    background-color: #B82601;
+    background-color: #0353A6;
     color: #ffffff;
 }
 
