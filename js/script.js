@@ -17,9 +17,9 @@ $(function(){
     const $achievementsIconsLeftPanel = $('.achievements-icons-left-panel');
     const $achievementsIconsRightPanel = $('.achievements-icons-right-panel');
 
-    function checkPos() {
-        console.log('Ypos', $window.scrollTop())
-    };
+    // function checkPos() {
+    //     console.log('Ypos', $window.scrollTop())
+    // };
 
     function navHide(){
         $getNavCollapse.collapse('hide');
@@ -93,3 +93,8 @@ $window.on('scroll', achievementsIconsAnimation);
 $scrollToTopBtn.on('click', scrollMeToTop);
 
 });
+
+/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('particles-js', 'particles.json', function() {
+    console.log('callback - particles.js config loaded');
+  });

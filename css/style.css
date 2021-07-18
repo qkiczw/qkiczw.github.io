@@ -1,8 +1,12 @@
 
+html{
+    scroll-behavior: smooth;
+
+}
+
 body{
     font-size: 17px;
     font-family: 'Roboto', sans-serif;
-
 }
 
 /*remove margins and padding from left and right side of site*/
@@ -31,6 +35,7 @@ nav{
 .navbar-my-brand{
     display: block;
 }
+
 .navbar-my-logo{
     display: none;
 }
@@ -69,6 +74,19 @@ li.nav-item{
     margin-top: 0;
     overflow: hidden;
 }
+.header-container {
+    position: relative;
+    height: 100vh;
+    
+}
+.hero {
+    position: absolute;
+    top: 25%;
+}
+.particles {
+    opacity: 0.3;
+    height: 100%;
+}
 
 .picture-of-me{
     border: 5px solid #ffffff;
@@ -90,6 +108,7 @@ h1.header-text{
     font-weight: bold;
     position: relative;
     right: -1500px;
+    text-transform: uppercase;
 }
 
 /*Section title*/
