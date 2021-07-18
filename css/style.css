@@ -280,6 +280,13 @@ footer{
     cursor: pointer;
     display: none;
 }
+address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
 
 /*----------------------Media Queries----------------------*/
 
@@ -324,7 +331,21 @@ footer{
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
+    .hero {
+        top: 10%;
+    }
     .achievements-icon {
         max-width: 200px;
     }
+
+}
+
+@media (min-width: 1920px) {
+    .hero {
+        top: 25%;
+    }
+    .achievements-icon {
+        max-width: 200px;
+    }
+
 }
