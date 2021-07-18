@@ -7,6 +7,7 @@ $(function(){
     const $welcomeText = $('.header-text');
     const $pictureOfMe = $('.picture-of-me');
     const $page = $('body, html');
+    const $nav = $('.navbar');
     const $navbar = $('.navbar-nav');
     const $navLinks = $navbar.find('a');
     const $navbarMyBrand = $('.navbar-my-brand');
@@ -55,7 +56,7 @@ function showPortfolioRow() {
 };
 
 function changeMyBrandToLogo() {
-    if($window.scrollTop() > 400){
+    if($window.scrollTop() > 200){
         $navbarMyBrand.css('display', 'none');
         $navbarMyLogo.css('display', 'block');
     }
@@ -84,12 +85,20 @@ function achievementsIconsAnimation() {
     }
 }
 
+function showDarkNaw() {
+    // if($window.scrollTop() > 200){
+    //     $nav.addClass('bg-dark');
+    // }
+    $window.scrollTop() > 200 ? $nav.addClass(' nav-shadow') : $nav.removeClass('nav-shadow');
+}
+
 $navLinks.on('click', scrollToSection);
 $window.on('scroll', changeMyBrandToLogo);
 $window.on('scroll', showPortfolioRow);
 $window.on('scroll', checkPos);
 $window.on('scroll', toggleScrollToTopVisibility);
 $window.on('scroll', achievementsIconsAnimation);
+$window.on('scroll', showDarkNaw);
 $scrollToTopBtn.on('click', scrollMeToTop);
 
 });
