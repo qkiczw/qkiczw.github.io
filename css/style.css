@@ -279,6 +279,11 @@ footer{
     font-size: 50px;
     cursor: pointer;
     display: none;
+    opacity: 0.6;
+    transition-duration: .3s;
+}
+.scroll-to-top-btn:hover {
+    opacity: 1;
 }
 address {
     display: flex;

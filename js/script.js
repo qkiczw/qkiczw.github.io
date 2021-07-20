@@ -75,7 +75,7 @@ function toggleScrollToTopVisibility() {
 };
 
 function scrollMeToTop() {
-    $page.animate({scrollTop: 0}, 1000)
+    $page.animate({scrollTop: 0}, 0);
 }
 
 function achievementsIconsAnimation() {
