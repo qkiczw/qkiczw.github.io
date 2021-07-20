@@ -92,7 +92,7 @@ function showDarkNaw() {
     $window.scrollTop() > 200 ? $nav.addClass(' nav-shadow') : $nav.removeClass('nav-shadow');
 }
 
-$navLinks.on('click', scrollToSection);
+// $navLinks.on('click', scrollToSection);
 $window.on('scroll', changeMyBrandToLogo);
 $window.on('scroll', showPortfolioRow);
 $window.on('scroll', checkPos);
