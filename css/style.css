@@ -235,7 +235,7 @@ h1.header-text{
     flex-direction: column;
     align-items: center;
     margin-bottom: 30px;
-    padding: 0% 10%;
+    /* padding: 0% 10%; */
     
 }
 .portfolio-row-1,  .portfolio-row-2, .portfolio-row-3{
