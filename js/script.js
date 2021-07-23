@@ -45,13 +45,10 @@ $(function(){
 
 function showPortfolioRow() {
     if($window.scrollTop() > 1450){
-        $portfolioRow1.css('opacity', '1')
+        $portfolioRow1.css({'opacity':'1', 'transform': 'translateY(0)'})
     } 
     if($window.scrollTop() > 2000){
-        $portfolioRow2.css('opacity', '1')
-    }
-    if($window.scrollTop() > 2000){
-        $portfolioRow3.css('opacity', '1');
+        $portfolioRow2.css({'opacity':'1', 'transform': 'translateY(0)'})
     }
 };
 
