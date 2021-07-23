@@ -44,10 +44,10 @@ $(function(){
     }
 
 function showPortfolioRow() {
-    if($window.scrollTop() > 1100){
+    if($window.scrollTop() > 1450){
         $portfolioRow1.css('opacity', '1')
     } 
-    if($window.scrollTop() > 1500){
+    if($window.scrollTop() > 2000){
         $portfolioRow2.css('opacity', '1')
     }
     if($window.scrollTop() > 2000){
