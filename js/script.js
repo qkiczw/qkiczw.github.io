@@ -15,7 +15,7 @@ $(function(){
     const $portfolioRow1 = $('.portfolio-row-1');
     const $portfolioRow2 = $('.portfolio-row-2');
     const $portfolioRow3 = $('.portfolio-row-3');
-    const $achievementsIconsLeftPanel = $('.achievements-icons-left-panel');
+    const $achievementsIcons = $('.achievements-icons');
     const $portfolioRowTitleWww = $('.portfolio-row-title-www');
     const $portfolioRowTitleSmallProjects = $('.portfolio-row-title-small-projects');
 
@@ -83,9 +83,8 @@ function scrollMeToTop() {
 }
 
 function achievementsIconsAnimation() {
-    if($window.scrollTop() > 600) {
-        $achievementsIconsLeftPanel.animate({left: '0'}, 700);
-        $achievementsIconsRightPanel.animate({left: '0'}, 1000);
+    if($window.scrollTop() > 700) {
+        $achievementsIcons.css({'opacity':'1', 'transform': 'translateY(0)'});
     }
 }
 

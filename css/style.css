@@ -194,6 +194,11 @@ h1.header-text{
 .achievements h3{
     font-weight:  bold;
 }
+.achievements-icons {
+    opacity: 0;
+    transform: translateY(100px);
+    transition-duration: .5s;
+}
 .achievements-icon {
     max-width: 120px;
     transition-duration: 0.2s;
