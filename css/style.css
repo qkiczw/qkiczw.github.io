@@ -152,7 +152,7 @@ h1.header-text{
 .about-me-button-link{
     width: 250px;
     border: solid 2px #0353A6;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color:#ffffff;
     color: #B82601;
     font-size: 1.3em;
@@ -206,6 +206,9 @@ h1.header-text{
 .my-portfolio {
     margin-top: 20px;
     background-color: #062f4f;
+    background-image: url('../images/bg-portfolio.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
     padding-bottom: 50px;
 }
 
