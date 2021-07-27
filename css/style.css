@@ -213,6 +213,17 @@ h1.header-text{
     color: #ffffff;
 }
 
+.portfolio-row-title {
+    width: 100%;
+}
+.portfolio-row-title > h3 {
+    width: 100%;
+    text-transform: uppercase;
+    margin: 25px;
+    transition-duration:0.5s;
+    opacity: 0;
+    transform: translateY(50px);
+}
 .portfolio-img{
     max-width: 300px;
     border: 2px solid #ffffff;
