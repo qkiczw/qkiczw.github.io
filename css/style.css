@@ -219,11 +219,15 @@ h1.header-text{
 .portfolio-row-title > h3 {
     width: 100%;
     text-transform: uppercase;
-    margin: 25px;
-    transition-duration:0.5s;
+    margin: 25px;   
+}
+.portfolio-row-title-www,
+.portfolio-item-title-small-projects {
     opacity: 0;
     transform: translateY(50px);
+    transition-duration:0.5s;
 }
+
 .portfolio-img{
     max-width: 300px;
     border: 2px solid #ffffff;

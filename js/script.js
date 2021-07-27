@@ -16,7 +16,8 @@ $(function(){
     const $portfolioRow2 = $('.portfolio-row-2');
     const $portfolioRow3 = $('.portfolio-row-3');
     const $achievementsIconsLeftPanel = $('.achievements-icons-left-panel');
-    const $achievementsIconsRightPanel = $('.achievements-icons-right-panel');
+    const $portfolioRowTitleWww = $('.portfolio-row-title-www');
+    const $portfolioRowTitleSmallProjects = $('.portfolio-row-title-small-projects');
 
     function checkPos() {
         console.log('Ypos', $window.scrollTop())
@@ -44,11 +45,17 @@ $(function(){
     }
 
 function showPortfolioRow() {
+    if($window.scrollTop() > 1400){
+        $portfolioRowTitleWww.css({'opacity':'1', 'transform': 'translateY(0)'});
+    }
     if($window.scrollTop() > 1450){
-        $portfolioRow1.css({'opacity':'1', 'transform': 'translateY(0)'})
+        $portfolioRow1.css({'opacity':'1', 'transform': 'translateY(0)'});
     } 
-    if($window.scrollTop() > 2000){
-        $portfolioRow2.css({'opacity':'1', 'transform': 'translateY(0)'})
+    if($window.scrollTop() > 2650){
+        $portfolioRowTitleSmallProjects.css({'opacity':'1', 'transform': 'translateY(0)'});
+    }
+    if($window.scrollTop() > 2700){
+        $portfolioRow2.css({'opacity':'1', 'transform': 'translateY(0)'});
     }
 };
 
@@ -97,7 +104,6 @@ $window.on('scroll', toggleScrollToTopVisibility);
 $window.on('scroll', achievementsIconsAnimation);
 $window.on('scroll', showDarkNaw);
 $scrollToTopBtn.on('click', scrollMeToTop);
-
 });
 
 /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
